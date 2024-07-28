@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center content on the page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sound button styles */
+.sound-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sound-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #010101;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sound-btn:hover {
+  background-color: #928e85;
+}
+
+#soundPlayer {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Advertisement strip styles */
+.advertisement {
+  background-color: #ffc107; /* Yellow background color */
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.ad-text {
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-right: 20px;
+}
+
+.ad-link {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+}
+
+.ad-link:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for the rest of the page content */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 60px; /* Adjust margin-top to account for the height of the advertisement strip */
+}
+
+/* Created by strip styles */
+.created-by {
+  background-color: #007bff; /* Blue background color */
+  padding: 5px 0; /* Adjust padding */
+  text-align: center;
+  color: #fff; /* White text color */
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px; /* Set maximum width */
+}
+
+.created-text {
+  font-size: 14px;
+}
+
+/* Additional styles for the rest of the page content */
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  margin: 60px auto 30px; /* Adjust margin as needed */
+}
+
+/* New color for swaras */
+.red-btn {
+  background-color: #c30010; /* Red color */
+}
+
+/* New color for pancham*/
+.green-btn {
+  background-color: #3b8132; /* Green color */
+}
+
+/* New color for digits*/
+.pink-btn {
+  background-color: #f5347f; /* Pink color */
+}
+
+/* New color for samyukt vyanjan*/
+.blue-btn {
+  background-color: #0056b3; /* Blue color */
+}
